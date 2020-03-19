@@ -21,7 +21,3 @@ class Graph:
         # F = 2 + E - V
         return 2 + self.count_edges() - self.V
 
-
-def T(m, n):
-    g = Graph(m * n)
-    
